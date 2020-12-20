@@ -106,28 +106,28 @@ Now we want to build out some useful features so `Cult`s and `Follower`s and get
 
 **`Cult`**
 
-* `Cult#average_age`
+<!-- * `Cult#average_age`
   * returns a `Float` that is the average age of this cult's followers
 * `Cult#my_followers_mottos`
-  * prints out all of the mottos for this cult's followers
-* `Cult.least_popular`
+  * prints out all of the mottos for this cult's followers -->
+<!-- * `Cult.least_popular`
   * returns the `Cult` instance who has the least number of followers :(
 * `Cult.most_common_location`
-  * returns a `String` that is the location with the most cults
+  * returns a `String` that is the location with the most cults -->
 
 **`Follower`**
 
-* `Follower#my_cults_slogans`
+<!-- * `Follower#my_cults_slogans`
   * prints out all of the slogans for this follower's cults
 * `Follower.most_active`
-  * returns the `Follower` instance who has joined the most cults
-* `Follower.top_ten`
-  * returns an `Array` of followers; they are the ten most active followers
+  * returns the `Follower` instance who has joined the most cults -->
+<!-- * `Follower.top_ten`
+  * returns an `Array` of followers; they are the ten most active followers -->
 
 **`BloodOath`**
 
-* `BloodOath.first_oath`
-  * returns the `Follower` instance for the follower that made the very first blood oath
+<!-- * `BloodOath.first_oath`
+  * returns the `Follower` instance for the follower that made the very first blood oath -->
 
 ---
 
@@ -137,22 +137,22 @@ Our platform is done! Let's commit our code!
 
 Now one highly requested feature from `Follower`s using your app that you plan to paywall ($$$) is to see your fellow cult members. See if you can implement this method.
 
-* `Follower#fellow_cult_members`
-  * returns a unique `Array` of followers who are in the same cults as you
+<!-- * `Follower#fellow_cult_members`
+  * returns a unique `Array` of followers who are in the same cults as you -->
 
 A highly requested feature from `Cult`s using your app that you plan to paywall ($$$) is to restrict ages for recruits. See if you can implement this functionality.
 
-* `Cult#minimum_age`
-  * returns a `Fixnum` that is the minimum age required for followers joining this cult
-* `Cult#recruit_follower`
+<!-- * `Cult#minimum_age`
+  * returns a `Fixnum` that is the minimum age required for followers joining this cult -->
+<!-- * `Cult#recruit_follower`
   * takes in an argument of a `Follower` instance and adds them to this cult's list of followers
   * NOW this is changed such that if the given `Follower` instance is not of age:
     * do not let them join the cult
-    * print out a friendly message informing them that they are too young
-* `Follower#join_cult`
+    * print out a friendly message informing them that they are too young -->
+<!-- * `Follower#join_cult`
   * takes in an argument of a `Cult` instance and adds this follower to the cult's list of followers
   * NOW this is changed such that if you don't meet the minimum age requirement of the given `Cult` instance:
     * do not let them join the cult
-    * print out a friendly message informing them that they are too young
+    * print out a friendly message informing them that they are too young -->
 
 Congrats on finishing your cult social network platform. Time to rake in the $$$!

@@ -13,5 +13,11 @@ class Bloodoath
         @@all
     end
 
+    def self.first_oath
+        all.min_by do |bloodoath|
+            bloodoath.initiation_date
+        end.follower
+    end
+
 
 end

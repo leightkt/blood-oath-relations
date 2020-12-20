@@ -34,4 +34,35 @@ class Follower
         end
     end
 
+    def my_cult_slogans
+        cults.each do |cult|
+            p cult.slogan
+        end
+    end
+    
+    def self.most_active
+        all.max_by do |follower|
+            follower.cults.count
+        end
+    end
+
+    def self.top_ten
+        sorted_followers = all.sort_by do |follower|
+            follower.cults.count
+        end.reverse
+        sorted_followers.first(10)
+    end
+
+    def fellow_cult_members
+        fellow_members = []
+        self.cults.each do |cult|
+            fellow_members << cult.followers
+        end
+        fellow_members = fellow_members.flatten.uniq
+        fellow_members.delete(self)
+        fellow_members
+    end
+
+
+
 end
