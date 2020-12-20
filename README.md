@@ -19,7 +19,7 @@ bundle install
 
 You can now add all of your Ruby files for your models in the `app/models` folder. You **do not** need to require them. They will be automagically require for you so long as you use the `tools/console.rb` file to run your code.
 
-Through this file, we've provided to you a console that you can use to test your code. To enter a console session, run `ruby tools/console.rb` from the command line. You'll be able to test out the methods that you write here. Take a look at that file to see how you can pre-define variables and create object instances, rather than manually doing it in every single console session.
+Through this file, we've provided to y                  ou a console that you can use to test your code. To enter a console session, run `ruby tools/console.rb` from the command line. You'll be able to test out the methods that you write here. Take a look at that file to see how you can pre-define variables and create object instances, rather than manually doing it in every single console session.
 
 ## Your Job
 
@@ -51,50 +51,50 @@ Questions you should ask yourself:
 
 **`Cult`**
 
-* `Cult#name`
+<!-- * `Cult#name`
   * returns a `String` that is the cult's name
 * `Cult#location`
   * returns a `String` that is the city where the cult is located
 * `Cult#founding_year`
   * returns a `Fixnum` that is the year the cult was founded
 * `Cult#slogan`
-  * returns a `String` that is this cult's slogan
-* `Cult#recruit_follower`
-  * takes in an argument of a `Follower` instance and adds them to this cult's list of followers
-* `Cult#cult_population`
-  * returns a `Fixnum` that is the number of followers in this cult
-* `Cult.all`
-  * returns an `Array` of all the cults
-* `Cult.find_by_name`
-  * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument
-* `Cult.find_by_location`
-  * takes a `String` argument that is a location and returns an `Array` of cults that are in that location
-* `Cult.find_by_founding_year`
-  * takes a `Fixnum` argument that is a year and returns all of the cults founded in that year
+  * returns a `String` that is this cult's slogan -->
+<!-- * `Cult#recruit_follower`
+  * takes in an argument of a `Follower` instance and adds them to this cult's list of followers -->
+<!-- * `Cult#cult_population`
+  * returns a `Fixnum` that is the number of followers in this cult -->
+<!-- * `Cult.all`
+  * returns an `Array` of all the cults -->
+<!-- * `Cult.find_by_name`
+  * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument -->
+<!-- * `Cult.find_by_location`
+  * takes a `String` argument that is a location and returns an `Array` of cults that are in that location -->
+<!-- * `Cult.find_by_founding_year`
+  * takes a `Fixnum` argument that is a year and returns all of the cults founded in that year -->
 
 **`Follower`**
 
-* `Follower#name`
+<!-- * `Follower#name`
   * returns a `String` that is the follower's name
 * `Follower#age`
   * returns a `Fixnum` that is the age of the follower
 * `Follower#life_motto`
-  * returns a `String` that is the follower's life motto
-* `Follower#cults`
-  * returns an `Array` of this follower's cults
-* `Follower#join_cult`
-  * takes in an argument of a `Cult` instance and adds this follower to the cult's list of followers
-* `Follower.all`
+  * returns a `String` that is the follower's life motto -->
+<!-- * `Follower#cults`
+  * returns an `Array` of this follower's cults -->
+<!-- * `Follower#join_cult`
+  * takes in an argument of a `Cult` instance and adds this follower to the cult's list of followers -->
+<!-- * `Follower.all`
   * returns an `Array` of all the followers
 * `Follower.of_a_certain_age`
-  * takes a `Fixnum` argument that is an age and returns an `Array` of followers who are the given age or older
+  * takes a `Fixnum` argument that is an age and returns an `Array` of followers who are the given age or older -->
 
 **`BloodOath`**
 
-* `BloodOath#initiation_date`
+<!-- * `BloodOath#initiation_date`
   * returns a `String` that is the initiation date of this blood oath in the format _YYYY-MM-DD_.
 * `BloodOath.all`
-  * returns an `Array` of all the blood oaths
+  * returns an `Array` of all the blood oaths -->
 
 ---
 
